@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+python main.py --data S --epochs 2 --batch_size 256 --d_lr 0.05 --g_lr 0.05 --opt sgd --dis 10 --gen 5 --log sample_test --prop_frequency 10 --weight_decay 0.0001 --cm pbm_0.1_1_4_1.json
